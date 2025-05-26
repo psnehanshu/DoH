@@ -49,5 +49,5 @@ const server = http.createServer(async (req, res) => {
 const PORT = parseInt(process.env.PORT ?? 8053, 10);
 
 server.listen(PORT, () => {
-  console.log(`DoH server listening on http://localhost:${PORT}/dns-query`);
+  console.log(`DoH server listening on http://localhost:${PORT}/`);
 });
