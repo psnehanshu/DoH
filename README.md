@@ -33,6 +33,6 @@ You can configure the server by setting environment variables. The following var
 
 Do you want to prevent your ISP or network administrator from spying on your DNS queries? Then DNS-over-HTTPS is a great solution. It encrypts your DNS queries, making it harder for third parties to see what websites you are visiting.
 
-But have they blocked the major DoH providers like Cloudflare or Google? This server can be used to bypass those restrictions by running it on your own server.
+But have they blocked the major DoH providers like Cloudflare or Google? This server can be used to bypass those restrictions by running it on your own machines or VPS which can be easily rented from providers like DigitalOcean, Linode, OVH, or a cloud provider like AWS or Fly.io.
 
 All major web browsers support DoH, so you can easily configure them to use this server as your DNS resolver.
