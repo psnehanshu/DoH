@@ -1,6 +1,14 @@
-# DNS-over-HTTPS (DoH) server
+# Dough-DoH (A simple DNS-over-HTTPS server)
 
-This is a simple DNS-over-HTTPS (DoH) server written in JavaScript using Node.js. It has no external dependencies and is designed to be easy to run and use.
+Pronounced like [dodo](https://en.wikipedia.org/wiki/Dodo).
+
+![Dodo](./dodo.jpg)
+
+[Possibly Roelant Savery](https://commons.wikimedia.org/wiki/File:Edwards%27_Dodo.jpg), Public domain, via Wikimedia Commons
+
+---
+
+This is a simple DNS-over-HTTPS (DoH) server written in JavaScript (Node.js). It has no external dependencies and is designed to be easy to run and use.
 
 It implements the API proposed in [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484), which is supported by all major web browsers by default.
 
