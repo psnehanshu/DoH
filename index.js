@@ -1,7 +1,7 @@
 const http = require('http');
 const https = require('https');
 
-const server = http.createServer(async (req, res) => {
+const server = http.createServer((req, res) => {
   if (req.method !== 'POST') {
     res.writeHead(404);
     res.end('Not Found');
@@ -10,7 +10,7 @@ const server = http.createServer(async (req, res) => {
 
   let body = [];
   req.on('data', chunk => body.push(chunk));
-  req.on('end', async () => {
+  req.on('end', () => {
     const dnsQuery = Buffer.concat(body);
 
     /** @type {https.RequestOptions} */
